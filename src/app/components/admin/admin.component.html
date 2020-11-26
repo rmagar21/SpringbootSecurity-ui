@@ -1,0 +1,26 @@
+<div class="container">
+    <table class="table table-bordered table-inverse">
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Amount</th>
+        <th class="text-right">Employee Details</th>
+      </tr>
+      <tr *ngFor="let employee of employees">
+        <td>
+         {{employee.id}}
+          </td>
+        <td>
+          {{employee.name}}
+        </td>
+        <td>
+          {{employee.age}}
+        </td>
+        <td>
+          {{employee.amount}}
+        </td>
+      </tr>
+    </table>
+  </div>
+  
